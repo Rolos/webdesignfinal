@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc43d57a-00e6-471e-9310-153794229b13" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticket.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="admin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="186" column="43" lean-forward="true" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
+            <state relative-caret-position="374">
+              <caret line="47" column="159" selection-start-line="47" selection-start-column="159" selection-end-line="47" selection-end-column="159" />
             </state>
           </provider>
         </entry>
@@ -58,6 +57,8 @@
       <find>padding-bottom: 5px;</find>
       <find>\</find>
       <find>padding-top: 5px;</find>
+      <find>asiento</find>
+      <find>tooltip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,11 +73,11 @@
         <option value="$PROJECT_DIR$/tickets.html" />
         <option value="$PROJECT_DIR$/src/js/slider.js" />
         <option value="$PROJECT_DIR$/src/styles/slider.css" />
-        <option value="$PROJECT_DIR$/ticket.html" />
         <option value="$PROJECT_DIR$/user-tickets.html" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/styles/main.css" />
         <option value="$PROJECT_DIR$/admin.html" />
+        <option value="$PROJECT_DIR$/ticket.html" />
       </list>
     </option>
   </component>
@@ -160,7 +161,7 @@
       <workItem from="1562447085464" duration="42000" />
       <workItem from="1562447171835" duration="51000" />
       <workItem from="1562447231742" duration="57000" />
-      <workItem from="1562447299450" duration="35906000" />
+      <workItem from="1562447299450" duration="37150000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1562448982183</created>
@@ -246,11 +247,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562525290126</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adds contact information to users">
+      <created>1562526587367</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562526587367</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36056000" />
+    <option name="totallyTimeSpent" value="37300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -324,7 +332,8 @@
     <MESSAGE value="Adds confirmation when buying a ticket" />
     <MESSAGE value="Create the user tickets page" />
     <MESSAGE value="Adds a link to the ticket in the user tickets page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds a link to the ticket in the user tickets page" />
+    <MESSAGE value="Adds contact information to users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds contact information to users" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -432,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="65" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-tickets.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -460,10 +462,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ticket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="186" column="43" lean-forward="true" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
+        <state relative-caret-position="374">
+          <caret line="47" column="159" selection-start-line="47" selection-start-column="159" selection-end-line="47" selection-end-column="159" />
         </state>
       </provider>
     </entry>
