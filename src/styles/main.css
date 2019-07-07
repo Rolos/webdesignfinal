@@ -108,7 +108,7 @@ h2, h3 {
 .header-container {
     background-color: #38ddff;
 }
-.admin-page .card-container .ticket-number {
+.admin-user-page .card-container .ticket-number {
     display: inline-block;
     width: 50px;
     height: 30px;
@@ -117,6 +117,21 @@ h2, h3 {
     background-color: #38ddff;
     text-align: center;
     margin-left: 10px;
+}
+.admin-user-page .card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.admin-user-page .card ul li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.admin-user-page .card ul li span {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 /************************ TICKET PAGE ***************************************/
