@@ -155,6 +155,21 @@ h2, h3 {
     border-bottom: none;
 }
 
+/************************ USER TICKETS PAGE ***************************************/
+.user-tickets-page .card ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.user-tickets-page .card ul li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.user-tickets-page .card ul span {
+    font-weight: bold;
+}
+
 /******************************** NAVIGATION ******************************/
 .home-page .navbar-brand,
 .home-page .navbar-light .navbar-nav .nav-link,
