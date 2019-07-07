@@ -119,6 +119,42 @@ h2, h3 {
     margin-left: 10px;
 }
 
+/************************ TICKET PAGE ***************************************/
+.ticket-info {
+    margin-bottom: 20px;
+}
+.ticket-info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ticket-info ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.ticket-info ul li span {
+    font-weight: bold;
+}
+.ticket-info select {
+    width: 130px;
+    margin-left: 10px;
+}
+.ticket-info .button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+.ticket-info .button-container button {
+    font-size: 1.5em;
+    padding: 10px 40px;
+}
+.ticket-info .table {
+    margin: 20px;
+}
+.ticket-info .table th {
+    border-top: none;
+    border-bottom: none;
+}
+
 /******************************** NAVIGATION ******************************/
 .home-page .navbar-brand,
 .home-page .navbar-light .navbar-nav .nav-link,

@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/7904da9666.js"></script>
 </head>
 
-<body class="tickets-page page">
+<body class="ticket-page page">
 <div class="header-container">
     <div class="site-container">
         <header class="navbar navbar-expand-lg navbar-light">
@@ -51,11 +51,56 @@
             <a href="#" class="control_next">></a>
             <a href="#" class="control_prev"><</a>
             <ul>
-                <li>SLIDE 1</li>
-                <li style="background: #aaa;">SLIDE 2</li>
-                <li>SLIDE 3</li>
-                <li style="background: #aaa;">SLIDE 4</li>
+                <li><img src="src/img/skyline.jpg" alt="Tierra de fuego Skyline"/></li>
+                <li><img src="src/img/tierra_fuego_night.jpg" alt="Tierra de fuego Night"/></li>
+                <li><img src="src/img/tierra_fuego_spring.jpg" alt="Tierra de fuego Spring"/></li>
+                <li><img src="src/img/river.jpg" alt="Tierra de fuego River"/></li>
             </ul>
+        </div>
+    </section>
+    <section class="ticket-info">
+        <ul>
+            <li><span>Ciudad Origen:</span> Santo Domingo, RD</li>
+            <li><span>Ciudad Destino:</span> Tierra de Fuego, AR</li>
+            <li class="ticket-category"><span>Categoria:</span> Turista</li>
+            <li>
+                <span>Asiento:</span>
+                <select class="custom-select mb-2">
+                    <option selected>1A</option>
+                    <option value="1">2B</option>
+                    <option value="2">3C</option>
+                    <option value="3">1B</option>
+                </select>
+            </li>
+            <li>
+                <span>Tramos:</span>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Salida</th>
+                        <th>Llegada</th>
+                        <th>Vuelo</th>
+                        <th>Plazas</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>09-10-2019 04:00:00PM SDQ</td>
+                        <td>09-10-2019 08:00:00PM BOG</td>
+                        <td>A-325</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>10-10-2019 04:00:00PM BOG</td>
+                        <td>10-10-2019 08:00:00PM EZE</td>
+                        <td>A-535</td>
+                        <td>12</td>
+                    </tr>
+                </table>
+            </li>
+            <li><span>Precio:</span> RD$ 50,000.00</li>
+        </ul>
+        <div class="button-container">
+            <button class="btn btn-primary">Comprar</button>
         </div>
     </section>
 </div>
@@ -77,34 +122,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="src/js/slider.js"></script>
 <script src="src/js/main.js"></script>
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="loginModalLabel">Log in</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="emailInput">Email</label>
-                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="su@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="passwordInput">Password</label>
-                        <input type="password" class="form-control" id="passwordInput" placeholder="Password">
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary" id="loginButton">Log In</button>
-            </div>
-        </div>
-    </div>
-</div>
 </body>
 
 </html>
