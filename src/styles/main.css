@@ -77,9 +77,32 @@ body {
 .home-page .modal {
     color: #525252;
 }
+
+/************************ ADMIN PAGE ***************************************/
+.admin-page {
+
+}
+.header-container {
+    background-color: #38ddff;
+}
 /******************************** NAVIGATION ******************************/
-.navbar-brand, .nav-link {
-    color: white !important;
+.home-page .navbar-brand,
+.home-page .navbar-light .navbar-nav .nav-link,
+.home-page .navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+.home-page .navbar-brand:hover,
+.home-page .navbar-light .navbar-nav .nav-link:hover {
+    color: #e0e0e0;
+}
+.admin-page .navbar-brand,
+.admin-page .navbar-light .navbar-nav .nav-link,
+.admin-page .navbar-light .navbar-nav .active>.nav-link {
+    color: black;
+}
+.admin-page .navbar-brand:hover,
+.admin-page .navbar-light .navbar-nav .nav-link:hover {
+    color: #525252;
 }
 .navbar-brand {
     font-style: italic;
@@ -91,6 +114,12 @@ body {
 }
 .jevi-main-nav {
     justify-content: flex-end;
+}
+header .admin {
+    font-size: 0.7em;
+}
+header i {
+    margin-right: 5px;
 }
 
 /**************************** HERO **********************************/
