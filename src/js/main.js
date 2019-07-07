@@ -12,7 +12,7 @@
       e.preventDefault();
       w.location.assign('ticket.html');
     });
-    $('.admin-page .card').on('click', function (e) {
+    $('.admin-user-page .card').on('click', function (e) {
       e.preventDefault();
       w.location.assign('user-tickets.html');
     });
