@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc43d57a-00e6-471e-9310-153794229b13" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin.html">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="47" column="159" selection-start-line="47" selection-start-column="159" selection-end-line="47" selection-end-column="159" />
+            <state relative-caret-position="827">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -59,6 +58,9 @@
       <find>padding-top: 5px;</find>
       <find>asiento</find>
       <find>tooltip</find>
+      <find>box-shadow: n</find>
+      <find>home-page</find>
+      <find>home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,9 +77,9 @@
         <option value="$PROJECT_DIR$/src/styles/slider.css" />
         <option value="$PROJECT_DIR$/user-tickets.html" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/styles/main.css" />
         <option value="$PROJECT_DIR$/admin.html" />
         <option value="$PROJECT_DIR$/ticket.html" />
+        <option value="$PROJECT_DIR$/src/styles/main.css" />
       </list>
     </option>
   </component>
@@ -161,7 +163,7 @@
       <workItem from="1562447085464" duration="42000" />
       <workItem from="1562447171835" duration="51000" />
       <workItem from="1562447231742" duration="57000" />
-      <workItem from="1562447299450" duration="37150000" />
+      <workItem from="1562447299450" duration="37569000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1562448982183</created>
@@ -254,11 +256,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562526587367</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adds tooltip for seats">
+      <created>1562527923011</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562527923011</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37300000" />
+    <option name="totallyTimeSpent" value="37719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -333,7 +342,8 @@
     <MESSAGE value="Create the user tickets page" />
     <MESSAGE value="Adds a link to the ticket in the user tickets page" />
     <MESSAGE value="Adds contact information to users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds contact information to users" />
+    <MESSAGE value="Adds tooltip for seats" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds tooltip for seats" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -455,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ticket.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -471,8 +474,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="47" column="159" selection-start-line="47" selection-start-column="159" selection-end-line="47" selection-end-column="159" />
+        <state relative-caret-position="489">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
         </state>
       </provider>
     </entry>
