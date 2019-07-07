@@ -12,5 +12,10 @@
       e.preventDefault();
       w.location.assign('ticket.html');
     });
+    if (w.swal) {
+      $('#buyTicketBtn').on('click', function (e) {
+        swal("Buen viaje!", "Ha adquirido su nuevo billete", "success");
+      });
+    }
   });
 })(jQuery, window);
