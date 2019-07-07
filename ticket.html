@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Viaja Jevi | Tierra de Fuego</title>
+    <meta name="description" content="Your best vacations ever!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Belleza|Ubuntu:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/slider.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <script src="https://kit.fontawesome.com/7904da9666.js"></script>
+</head>
+
+<body class="tickets-page page">
+<div class="header-container">
+    <div class="site-container">
+        <header class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Viaja<span class="jevi">Jevi</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse jevi-main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="tickets.html">Billetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hoteles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+</div>
+<div class="site-container">
+    <section class="container-fluid card-container">
+        <h3>Tierra de Fuego</h3>
+        <div id="slider">
+            <a href="#" class="control_next">></a>
+            <a href="#" class="control_prev"><</a>
+            <ul>
+                <li>SLIDE 1</li>
+                <li style="background: #aaa;">SLIDE 2</li>
+                <li>SLIDE 3</li>
+                <li style="background: #aaa;">SLIDE 4</li>
+            </ul>
+        </div>
+    </section>
+</div>
+<section class="footer-section">
+    <div class="site-container">
+        <footer class="text-center clearfix">
+            <ul>
+                <li class="facebook"><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li class="instagram"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li class="youtube"><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+            </ul>
+            <p>&copy; 2019 Viaja Jevi Travels Inc.</p>
+        </footer>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="src/js/slider.js"></script>
+<script src="src/js/main.js"></script>
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Log in</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="emailInput">Email</label>
+                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="su@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="passwordInput">Password</label>
+                        <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="loginButton">Log In</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
