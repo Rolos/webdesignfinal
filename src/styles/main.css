@@ -84,6 +84,16 @@ h2, h3 {
 .home-page .modal {
     color: #525252;
 }
+.home-page .card-container {
+    padding-bottom: 100px;
+}
+.home-page .card-container .card {
+    margin-top: -180px;
+    transition: 300ms all;
+}
+.home-page .card-container .card:hover {
+    box-shadow: none;
+}
 
 /************************ NORMAL PAGE ***************************************/
 .page .card-container {
@@ -269,12 +279,6 @@ header i {
 .below-section {
     background-color: white;
     margin-top: 20%;
-}
-.home-page .card-container {
-    padding-bottom: 100px;
-}
-.home-page .card-container .card{
-    margin-top: -180px;
 }
 .card-container .card-text, .card-container .card-title {
     color: #525252;
