@@ -3,6 +3,9 @@
     padding-right: 0px;
     padding-left: 0px;
 }
+.btn {
+    border-radius: 0;
+}
 .btn-primary {
     color: #fff;
     background-color: #38ddff;
@@ -19,24 +22,61 @@
     background-color: #38ddff;
     border-color: #38ddff;
 }
+.btn-secondary {
+    color: #fff;
+    background-color: #FF529A;
+    border-color: #ff0da9;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: #ff0da9;
+    border-color: #ff0da9;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #FF529A;
+    border-color: #ff0da9;
+}
+.modal-header, .modal-footer, .modal-content {
+    border-radius: 0;
+    border: none;
+}
+.modal-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8em;
+}
+.form-control {
+    border-radius: 0;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    height: auto;
+}
+.modal-body {
+    padding: 0 1rem;
+}
 
 /******************** GENERAL STYLES **************************************/
 body {
     font-family: 'Belleza', sans-serif;
-}
-.home-page {
-    background: url("../img/bali.jpg") no-repeat fixed 0px -190px;
-    background-size: 100%;
-    color: white;
 }
 .site-container {
     max-width: 1200px;
     margin: 0 auto;
 }
 .font1 {
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+/*********************** HOME PAGE ********************************/
+.home-page {
+    background: url("../img/bali.jpg") no-repeat fixed 0 -190px;
+    background-size: 100%;
+    color: white;
+}
+.home-page .modal {
+    color: #525252;
+}
 /******************************** NAVIGATION ******************************/
 .navbar-brand, .nav-link {
     color: white !important;
@@ -68,20 +108,21 @@ body {
     height: auto;
 }
 .hero input[type="text"], .hero select, .hero button {
-    padding: 15px;
+    padding: 20px;
     border-radius: 0;
     background-clip: unset;
     font-style: italic;
+    font-size: 1.4em;
 }
 .hero input[type="text"] {
-    width: 320px;
+    width: 350px;
     border-top: none;
     border-bottom: none;
     border-left: none;
     border-right: 1px solid #ccc;
 }
 .hero select {
-    width: 200px;
+    width: 250px;
     border-top: none;
     border-bottom: none;
     border-left: none;
@@ -89,7 +130,7 @@ body {
 }
 .hero button {
     border: none;
-    width: 120px;
+    width: 130px;
 }
 .search-widget {
     margin-top: 20px;
