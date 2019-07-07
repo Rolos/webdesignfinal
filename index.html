@@ -6,11 +6,114 @@
   <title>Viaja Jevi</title>
   <meta name="description" content="Your best vacations ever!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Belleza|Ubuntu:700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/styles/main.css">
+  <script src="https://kit.fontawesome.com/7904da9666.js"></script>
 </head>
 
-<body>
+<body class="home-page">
+  <div class="site-container">
+    <header class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Viaja<span class="jevi">Jevi</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse jevi-main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hoteles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="hero">
+      <h1 class="font1">Conoce tu mundo</h1>
+      <p>Encuentra el lugar perfecto para tus proximas vacaciones</p>
+      <form class="search-widget">
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <input type="text" class="form-control mb-2" placeholder="Quiero ir a...">
+          </div>
+          <div class="col-auto">
+            <select class="custom-select mb-2">
+              <option selected>En este lugar</option>
+              <option value="1">New York</option>
+              <option value="2">Boston</option>
+              <option value="3">Japon</option>
+            </select>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </div>
+  <div class="below-section">
+    <div class="site-container">
+      <section class="container-fluid card-container">
+        <div class="row">
+          <div class="col-sm">
+              <div class="card">
+                  <img src="src/img/beach.jpeg" class="card-img-top" alt="Beach Vacation">
+                  <div class="card-body">
+                    <h5 class="card-title">El paraiso en tus manos</h5>
+                    <p class="card-text"> Aliquam quam nulla, aliquam consectetur magna eu, lacinia efficitur odio. Donec sit.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card">
+                  <img src="src/img/beach-chair.jpg" class="card-img-top" alt="Beach Chair">
+                  <div class="card-body">
+                    <h5 class="card-title">S&oacute;lo rel&aacute;jate</h5>
+                    <p class="card-text">Aliquam quam nulla, aliquam consectetur magna eu, lacinia efficitur odio. Donec sit.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card">
+                  <img src="src/img/ferry.jpg" class="card-img-top" alt="Ferry">
+                  <div class="card-body">
+                    <h5 class="card-title">Transporte incluido</h5>
+                    <p class="card-text">Aliquam quam nulla, aliquam consectetur magna eu, lacinia efficitur odio. Donec sit.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section class="footer-section">
+    <div class="site-container">
+      <footer class="text-center clearfix">
+        <ul>
+          <li class="facebook"><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+          <li class="twitter"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+          <li class="instagram"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+          <li class="youtube"><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+        </ul>
+        <p>&copy; 2019 Viaja Jevi Travels Inc.</p>
+      </footer>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="src/js/main.js"></script>
 </body>
 

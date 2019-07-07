@@ -1,0 +1,169 @@
+/****************** BOOTSTRAP OVERRIDES *************************/
+.hero .form-row>.col, .hero .form-row>[class*=col-] {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #38ddff;
+    border-color: #38ddff;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #2FBFFF;
+    border-color: #2FBFFF;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #38ddff;
+    border-color: #38ddff;
+}
+
+/******************** GENERAL STYLES **************************************/
+body {
+    font-family: 'Belleza', sans-serif;
+}
+.home-page {
+    background: url("../img/bali.jpg") no-repeat fixed 0px -190px;
+    background-size: 100%;
+    color: white;
+}
+.site-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.font1 {
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+/******************************** NAVIGATION ******************************/
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    font-style: italic;
+}
+.jevi {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.jevi-main-nav {
+    justify-content: flex-end;
+}
+
+/**************************** HERO **********************************/
+.hero {
+    margin-top: 140px;
+    padding: 0 15px;
+}
+.hero h1 {
+    font-size: 3.5em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.hero .form-control, .hero .custom-select {
+    height: auto;
+}
+.hero input[type="text"], .hero select, .hero button {
+    padding: 15px;
+    border-radius: 0;
+    background-clip: unset;
+    font-style: italic;
+}
+.hero input[type="text"] {
+    width: 320px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid #ccc;
+}
+.hero select {
+    width: 200px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid #ccc;
+}
+.hero button {
+    border: none;
+    width: 120px;
+}
+.search-widget {
+    margin-top: 20px;
+}
+
+/******************************* BELOW SECTION ****************************/
+.below-section {
+    background-color: white;
+    margin-top: 20%;
+}
+.card-container {
+    padding-bottom: 100px;
+}
+.card-container .card{
+    margin-top: -180px;
+    border: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.card-container .card-text, .card-container .card-title {
+    color: #525252;
+}
+
+/******************************** FOOTER SECTION *********************************/
+.footer-section {
+    background-color: #38ddff;
+}
+footer {
+    padding: 40px;
+}
+footer p {
+    margin-bottom: 0;
+}
+footer ul {
+    padding: 0;
+    margin-bottom: 20px;
+}
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: 800ms all;
+    cursor: pointer;
+}
+footer ul li:hover {
+    background-color: white;
+}
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-youtube {
+    color: white;
+    margin-top: 9px;
+}
+.facebook {
+    background-color: #3b5998;
+}
+.instagram {
+    background-color: #3f729b;
+}
+.twitter {
+    background-color: #00ACee;
+}
+.youtube {
+    background-color: red;
+}
+.facebook:hover .fa-facebook-f {
+    color: #3b5998;
+}
+.instagram:hover .fa-instagram {
+    color: #3f729b;
+}
+.twitter:hover .fa-twitter {
+    color: #00ACee;
+}
+.youtube:hover .fa-youtube {
+    color: red;
+}
